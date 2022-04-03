@@ -1,14 +1,39 @@
-body{background-color: black;}
+body{background-color: black;
+  background-image: url('coding.jpg');
+  background-size: cover;
+}
 
 h1{color: white;
   text-align: center;
   padding: 0px;
-  margin: 90px 190px;
-  border: 1px solid powderblue
+  margin: 1em;
+  border: 1px solid orange
 
 }
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+#limenu {
+  float: left;
+}
 
-h2{color: white;}
+#limenu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#limenu a:hover {
+  background-color: #111111;
+}
+
+h2{color: orange;}
 
 p{color: white;}
 
