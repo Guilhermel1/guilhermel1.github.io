@@ -1,6 +1,11 @@
+*{margin: 0;
+  padding: 0;
+}
+
 body{background-color: black;
-  background-image: url('coding.jpg');
+  background-image: url('coding_grayscale_light.jpg');
   background-size: cover;
+
 }
 
 h1{color: white;
@@ -12,6 +17,7 @@ h1{color: white;
 }
 #menu {
   list-style-type: none;
+  font-weight: bold;
   margin: 0;
   padding: 0;
   overflow: hidden;
